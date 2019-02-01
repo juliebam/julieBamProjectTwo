@@ -1,0 +1,60 @@
+header {
+    // display: flex;
+    background: url('assets/home-image-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height:  70vh;
+        h1 {
+            font-size: 16.6rem;
+            font-weight: 300;
+            color: white;
+            margin: 0;
+            // width: 40%;
+            padding-top: 50px;
+                span {
+                    color:$yellow;
+                }
+        }      
+}
+
+.mainHeading {
+    height: 200px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1;
+    color: white;
+    margin: 5px 20px 5px 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+        li {
+            display: inline-block;
+            a {
+                text-decoration: none;
+                padding: 7px 25px;
+                color: white;
+                text-transform: uppercase;
+                transition: color 0.2s linear;
+
+                &:hover {
+                    color:$yellow;
+                }
+            }
+        }
+}
+
+.headerFlex {
+    display: flex;
+}
+
