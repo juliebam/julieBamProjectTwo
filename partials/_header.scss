@@ -4,22 +4,22 @@ header {
     background-size: cover;
     background-position: center;
     min-height:  70vh;
+    position: relative;
         h1 {
             font-size: 16.6rem;
             font-weight: 300;
             color: white;
             margin: 0;
-            // width: 40%;
-            padding-top: 50px;
+            padding-top: 110px;
+            z-index: 99;
                 span {
                     color:$yellow;
+                    display: block;
+                    margin-top: -40px;
                 }
         }      
 }
 
-.mainHeading {
-    height: 200px;
-}
 .flex {
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ header {
 
 .logo {
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1;
     color: white;
     margin: 5px 20px 5px 100px;

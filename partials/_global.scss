@@ -41,11 +41,24 @@ h1, h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+h3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
 button {
     background: $green;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    width: 30%;
+    line-height: 3.2rem;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 3.2rem;
 }
 

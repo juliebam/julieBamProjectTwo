@@ -1,0 +1,117 @@
+.planted img {
+    width: 40%;
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+.planted {
+    background: $background;
+    h2 {
+        font-size: 5.63rem;
+        font-size: bold;
+        margin: 0;    }
+} 
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 125px;
+    p {
+        text-align: center;
+    }
+} 
+
+.imageOne  {
+    width: 100%;
+    position: relative;
+    bottom: 35px;
+}
+
+.imageOne img {
+    box-shadow: 25px 25px 0px -5px $yellow;
+}
+
+.imageTwo {
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+
+.imageTwo img {
+    box-shadow:  -25px 25px 0px -5px  $yellow;
+}
+
+.workshops, .unique {
+    display: flex;
+    flex-direction: column;
+        h3 {
+            margin-top: 110px;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+}
+
+.workshops  {
+    text-align: left;
+    margin-right: 75px;
+}
+
+.unique {
+    text-align: right;
+    margin-left: 75px;
+        h3 {
+            margin-top: 80px;
+        }
+}
+
+.uniqueButton {
+    margin-left: auto;
+}
+
+.gridContainer1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px 400px;
+        grid-gap: 50px 200px;
+}
+
+.greenHouses {
+    background: $background;
+    padding: 100px 0 50px 0;
+}
+
+.icon {
+    background: $yellow;
+    font-size: 2.8rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 50px;
+    text-align:center;
+    vertical-align:middle;
+    display:inline-block;
+    flex-shrink: 0;
+}
+
+.fas fa-leaf, .fas fa-users, .fas fa-file,.fas fa-phone { 
+    line-height: inherit;
+}
+
+.flexContainer2 {
+    display: flex;
+}
+
+.greenHouses h3 {
+    margin-top: 10px;
+}
+
+.item {
+    margin-left: 20px;
+}
+
+

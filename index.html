@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Roboto:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"/>
     <title>Planted</title>
 </head>
@@ -26,13 +27,14 @@
         <div class="flex">
         <h1 class="mainHeading">Planted <span class="invitation">invitation</span></h1>
         </div>
-        <!-- <img src="assets/header-box.jpg" alt=""> -->
     </header>
     <!--*************Main starts here*************-->
 <main>
-    
-    <section class="whatsPlanted">
-        <div class="wrapper">
+    <section class="planted ">
+        <div class="annoyingImage">
+            <img src="assets/header-box.jpg" alt="">
+        </div>
+        <div class="wrapper flexContainer">
             <h2>What is planted?</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque doloribus molestiae a reprehenderit porro dolor mollitia libero soluta rem dolores possimus commodi consectetur quibusdam, dolorem magni odit! Sint eligendi at voluptas consequatur illo, dignissimos facilis tempore pariatur quidem corrupti officia laboriosam nemo doloremque repellendus?
@@ -42,51 +44,68 @@
     </section>
 
     <section class="upcoming">
-        <div class="wrapper  ">
-            <img src="assets/left-flowers.jpg" alt="bouquet with pink and white roses as well as some purple flowers">
-            <h3>Upcoming workshops</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit harum assumenda eveniet dicta porro illum delectus ducimus consequatur quas error accusamus, facere blanditiis repellendus asperiores, eum, a maxime cumque unde?
-            </p>
-            <button>Find out more</button>
-        </div>
-
-        <div class="wrapper">
+        <div class="gridContainer1">
+            <div class="imageOne">
+                <img src="assets/left-flowers.jpg" alt="bouquet with pink and white roses as well as some purple flowers">
+            </div>
+            <div class="workshops">
+                <h3>Upcoming workshops</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit harum assumenda eveniet dicta porro illum delectus ducimus consequatur quas error accusamus, facere blanditiis </p>
+                <button>Read More</button>
+            </div>
+    
+            <div class="unique clearfix">
                 <h3>Unique plants to discover</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit harum assumenda eveniet dicta porro illum delectus ducimus consequatur quas error accusamus, facere blanditiis repellendus asperiores, eum, a maxime cumque unde?
                 </p>
-                <button>Find out more</button>
+                <button class="uniqueButton">Read More</button>
+            </div>
+            <div class="imageTwo">
                 <img src="assets/right-flowers.jpg" alt="a bush of green Hydrangea">
+            </div>
         </div>
     </section>
 
     <section class="greenHouses">
-        <div class="wrapper">
+        <div class="wrapper gridContainer2">
+        <div class="flexContainer2">
+            <div class="icon"><i class="fas fa-leaf"></i></div>
             <div class="item">
                 <h3>Green houses</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit numquam maxime cupiditate ut molestias quae excepturi consectetur quod, aliquid vel repudiandae vero commodi laboriosam quas eum deleniti eveniet nisi unde.25
                 </p>
             </div>
+        </div>
+        <div class="flexContainer2">
+            <div class="icon"><i class="fas fa-users" aria-hidden="true"></i></div>
             <div class="item">
                 <h3>Community</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam ut, temporibus ab officiis dicta nostrum, natus, doloremque modi magnam molestias? Pariatur distinctio dolor eius.
                 </p>
             </div>
+        </div>
+        <div class="flexContainer2">
+            <div class="icon"><i class="fas fa-file" aria-hidden="true"></i></div>
             <div class="item">
                 <h3>Blog</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, adipisci numquam? Nam qui architecto a, itaque voluptas ad reiciendis, quasi labore corporis, consequuntur quo voluptate.
                 </p>
             </div>
+        </div>
+        <div class="flexContainer2">
+            <div class="icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
             <div class="item">
                 <h3>Get in Touch</h3>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores fuga excepturi reprehenderit nisi? Iste culpa adipisci explicabo perspiciatis obcaecati ipsum eligendi incidunt ea iure iusto.
                 </p>
             </div>
+        </div>
         </div>
     </section>
 
