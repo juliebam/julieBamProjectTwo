@@ -1,16 +1,15 @@
-header {
-    // display: flex;
+.mainHeader {
     background: url('assets/home-image-1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    min-height:  70vh;
+    min-height:  100vh;
     position: relative;
         h1 {
             font-size: 16.6rem;
-            font-weight: 300;
+            font-weight: 400;
             color: white;
             margin: 0;
-            padding-top: 110px;
+            padding-top: 150px;
             z-index: 99;
                 span {
                     color:$yellow;
@@ -56,5 +55,6 @@ nav ul {
 
 .headerFlex {
     display: flex;
+    padding-top: 30px;
 }
 
