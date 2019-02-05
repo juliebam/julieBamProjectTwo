@@ -54,7 +54,6 @@ button {
     font-weight: bold;
     border: none;
     padding: 10px 15px;
-    width: 30%;
     line-height: 3.2rem;
     letter-spacing: 1px;
 }
@@ -63,3 +62,41 @@ p {
     line-height: 3.2rem;
 }
 
+input {
+    border: none;
+    border-bottom: 2.5px solid $green;
+    background: $background;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 3.2rem;
+    padding-bottom: 35px;
+    margin-bottom: 40px;
+    width: 350px;
+    margin-right: 40px;
+}
+
+
+textarea {
+    width: 95%;
+	height: 80%;
+	border: 2.5px solid $green;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 3.2rem;
+    background: $background;
+    padding: 30px;
+}
+
+ input[type=submit] {
+    background-color: $green;
+    font-weight: bold;
+    width: 95%;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 40px 0;
+    cursor: pointer;
+ }
+
+ 

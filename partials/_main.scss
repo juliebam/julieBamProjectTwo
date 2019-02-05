@@ -1,8 +1,16 @@
-.planted img {
-    width: 45%;
+.headerImage {
     position: absolute;
-    top: 150px;
-    right: 0;
+    right: 60px;
+    bottom: 0;
+    max-width: 600px;
+    transform: scale(1.2);
+}
+
+.mainHeader img {
+    display: none;
+    width: 10%;
+    padding: 10px;
+    float: right;
 }
 
 .planted {
@@ -32,24 +40,24 @@
 
 .imageOne img {
     box-shadow: 25px 25px 0px -5px $yellow;
+    width: 100%;
+
 }
 
 .imageTwo {
     width: 100%;
     position: relative;
-    top: 60px;
+    top: 5%;
 }
 
 .imageTwo img {
     box-shadow:  -25px 25px 0px -5px  $yellow;
+    width: 100%;
 }
 
 .workshops, .unique {
     display: flex;
     flex-direction: column;
-        h3 {
-            margin-top: 110px;
-        }
         p {
             margin-top: 0;
             margin-bottom: 40px;
@@ -61,12 +69,21 @@
     margin-right: 75px;
 }
 
-.unique {
+// .unique {
+//     text-align: right;
+//     margin-left: 75px;
+// }
+
+.testOne {
+    width: 80%;
+    margin: 50px 0;
+    text-align: left;
+}
+
+.testTwo {
+    width: 100%;
+    // margin: 50px 5px 50px 100px;
     text-align: right;
-    margin-left: 75px;
-        h3 {
-            margin-top: 80px;
-        }
 }
 
 .uniqueButton {
@@ -76,8 +93,7 @@
 .gridContainer1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 400px 400px;
-        grid-gap: 50px 200px;
+        grid-gap: 0 150px;
 }
 
 .greenHouses {
@@ -150,5 +166,9 @@
 .flexContainer3 {
     display: flex;
     justify-content: space-between;
+}
+
+.flexItem {
+    flex-basis: 30%;
 }
 

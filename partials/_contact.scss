@@ -1,0 +1,88 @@
+.contactBody {
+    background: $background;
+}
+
+.contactHeader {
+    background: url("assets/contact-header-1.jpg")    no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height:  80vh;
+    position: relative;
+        h1 {
+            color: $yellow;
+            font-weight: bold;
+            font-size: 8.0rem;
+            line-height: 9.2rem;
+            margin: 0;
+            padding-top: 25%;
+            padding-left: 7%;
+            padding-bottom: 5%;
+            width: 30%;
+    }   
+}
+
+.contactForm input {
+    background: white;
+}
+
+.contactForm textarea {
+    background: white;
+    height: 300px;
+}
+
+.contactForm input::placeholder {
+    padding-left: 20px;
+}
+
+.formContainer {
+    padding: 50px;
+    background: white;
+    width: 65%;
+    padding-left: 90px;
+    padding-top: 70px;
+    position: absolute;
+    top: 355px;
+    right: 50px;
+    box-shadow: -25px 25px 0px -5px $yellow;
+}
+
+.contactForm input[type=submit] {
+    background-color: $green;
+    font-weight: bold;
+    width: 95%;
+    max-height: 200px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 40px 0;
+    cursor: pointer;
+ }
+
+ .social {
+    padding-left: 45px;
+    padding-top: 100px;
+ }
+
+ .social ul li {
+     list-style: none;
+     float: left;
+ }
+
+ .social ul li a {
+     padding: 0 15px;
+     color: $green;
+     transition: color 0.2s linear;
+ }
+
+ .social ul li a:hover {
+     color: $forest;
+ }
+
+ .address {
+    width: 30%;
+    padding: 0px 50px 150px 100px;
+        p {
+            margin: 0;
+        }
+ }

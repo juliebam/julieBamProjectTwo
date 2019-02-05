@@ -4,45 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Roboto:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"/>
     <title>Contact</title>
 </head>
-<body>
+<body class="contactBody">
     <!--*************Header starts here*************-->
     <header>
-        <h2 class="logo">Planted</h2>
-        <nav class="mainNav">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Blog</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <h1>Get in Touch</h1>
+        <div class="headerFlex mainNavigator">
+            <h2 class="logo">Planted</h2>
+            <nav class="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contactHeader">
+                <h1>Get in Touch</h1>
+        </div>
     </header>
     <!--*************Main starts here*************-->
     <main>
         <section>
-            <div class="form">
-                <form>
+            <div class="formContainer">
+                <form class="contactForm">
                     <input type="text"  name="name" placeholder="Name">
                     <input type="email" name="email" placeholder="Email address">
-                    <textarea name="message" cols="10" placeholder="Mesaage"></textarea>          
+                    <textarea name="message" cols="6" placeholder="Message"></textarea>          
                     <input type="submit" value="Submit">      
                 </form>
             </div>
             <div class="contactInfo">
-                <div class="social">
+                <div class="social clearfix">
                     <ul>
-                        <li><span class="visibilityHidden">Facebook</span></li>
-                        <li><span class="visibilityHidden">Instagram</span></li>
-                        <li><span class="visibilityHidden">Twitter</span></li>
-                        <li><span class="visibilityHidden">Whatsapp</span></li>
+                        <li><a href="www.facebook.com"><span class="visibilityHidden">Facebook</span><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="www.instagram.com"><span class="visibilityHidden">Instagram</span><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="www.twitter.com"><span class="visibilityHidden">Twitter</span><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="www.whatsapp.com"><span class="visibilityHidden">Whatsapp</span><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
-                <h3>info@email.com</h3>
-                <p>123 - 456 - 7890</p>
-                <p>123 Queen Street West, Unit 10 Toronto, Ontario M5V2D5</p>
+                <div class="address">
+                    <h3>info@email.com</h3>
+                    <p>123 - 456 - 7890</p>
+                    <p>123 Queen Street West, Unit 10 Toronto, Ontario</p> 
+                    <p>M5V2D5</p>
+                </div>
             </div>
         </section>
     </main>
