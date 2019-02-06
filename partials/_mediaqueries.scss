@@ -1,3 +1,4 @@
+//Media Queries for the main page
 @media(max-width: 1262px) {
     .imageOne, .imageTwo {
         position: static;
@@ -157,5 +158,251 @@
 @media (max-width: 430px) {
     .flexItem img{
         flex-basis: 250px;
+    }
+}
+
+// Media Queries for the blog page
+
+@media (max-width: 1320px) {
+    input {
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    .aboutPlanted ul {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1154px) {
+    input {
+        width: 35%;
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .gridContainerBlog {
+        grid-template-columns: 1fr;
+    }
+
+    .mainContent img {
+        display: none;
+    }
+ 
+    .blogHeader {
+        margin-bottom: 0;
+    }  
+
+    .box {
+        box-shadow: none;
+        padding-top: 232px;
+        margin-left: -100px;
+    }
+}
+
+@media (max-width: 751px) {
+    .blog img {
+        display: block;
+        width: 10%;
+        padding: 15px;
+    }
+
+    .headerFlex {
+        justify-content: space-between;
+    }
+
+    .mainNavigator h2 {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .blogHeader {
+        min-height: 60vh;
+    }
+
+    .mainContent p, .comments p {
+        margin-right: auto;
+    }
+
+    .comments {
+        margin-left: -110px;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    form {
+            margin-left: -70px;
+    }
+}
+
+@media (max-width: 500px) {
+    .blog img {
+        width: 15%;
+    }
+}
+
+@media (max-width: 450px) {
+    aside img {
+        display: none;
+    }
+
+    .gridContainerBlog {
+        margin: 0;
+    }
+
+    .box {
+        margin-left: 0;
+    }
+
+    .comments {
+        margin-left: 0;
+    }
+
+    .form {
+        margin-left: 100px;
+    }
+
+    input {
+        width: 75%;
+    }
+}
+
+@media (max-width: 390px) {
+    .image {
+        display: none;
+    }
+}
+
+@media (max-width: 340px) {
+    input {
+        width: 70%;
+    }
+}
+
+// Media Queris for the contact page
+@media (max-width: 1245px) {
+    .social {
+        padding-left: 0;
+    }
+
+    .address {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .contactHeader h1 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 1070px) {
+    .contactHeader {
+        min-height: 50vh;
+        margin-bottom: 100px;
+    }
+    
+    .contactHeader h1 {
+        padding: 10% 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .formContainer {
+        position: static;
+        margin: 0 auto;
+        padding: 20px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 1030px) {
+    input {
+        width: 80%;
+        margin-left: 35px;
+    }
+    .address {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .mainNavigator img {
+        display: block;
+    }
+}
+
+@media (max-width: 655px) {
+    textarea {
+        margin-left: 75px;
+        width: 75%;
+    }
+
+    input {
+        width: 60%;
+        margin-left: 110px;
+        padding-bottom: 15px;
+    }
+
+    .contactForm input[type="submit"] {
+        margin-left: 75px;
+        width: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    input {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 580px) {
+    .formContainer {
+        padding-left: 35px;
+    }
+}
+
+@media (max-width: 525px) {
+    .contactHeader h1 {
+        padding-top: 20%;
+        font-size: 5.0rem;
+    }
+
+    .formContainer {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contactHeader {
+        margin-bottom: 50px;
+    }
+
+    .mainNavigator img {
+        width: 15%;
+    }
+
+    .social {
+        padding-top: 50px;
+    }
+
+    .formContainer {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .address {
+        padding-left: 25px;
     }
 }

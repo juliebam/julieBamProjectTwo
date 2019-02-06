@@ -11,7 +11,7 @@
 </head>
 <body class="blogBody">
     <!--*************Header starts here*************-->
-    <header>
+    <header class="blog">
         <div class="headerFlex mainNavigator">
             <h2 class="logo">Planted</h2>
             <nav class="mainNav">
@@ -22,29 +22,30 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <img src='assets/bars.png' alt=''>
         </div>
         <div class="blogHeader">
             <h1 class="mainHeading">Blog</h1>
         </div>
     </header>
     <!--*************Main starts here*************-->
-    <main class="gridContainerBlog wrapper">
+    <main class="gridContainerBlog wrapper1">
             
         <div class="gridItem1">
-                <aside>
-                        <img src="assets/side-bar-image.jpg" alt="window on a old building's wall">
-                        <div class="aboutPlanted" id="about">
-                            <h3>About Planted</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span>Find out more.</span></p>
-                            <h3>Recent Posts</h3>
-                            <ul>
-                                <li>Donec facilisis tortor ut</li>
-                                <li>Augue lacinia at viverra</li>
-                                <li>Semper sed sapiend metus</li>
-                                <li>Scelerisque nec pharetra id</li>
-                            </ul>
-                        </div>
-                    </aside>
+            <aside>
+                    <img src="assets/side-bar-image.jpg" alt="window on a old building's wall">
+                    <div class="aboutPlanted" id="about">
+                        <h3>About Planted</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span>Find out more.</span></p>
+                        <h3>Recent Posts</h3>
+                        <ul>
+                            <li>Donec facilisis tortor ut</li>
+                            <li>Augue lacinia at viverra</li>
+                            <li>Semper sed sapiend metus</li>
+                            <li>Scelerisque nec pharetra id</li>
+                        </ul>
+                    </div>
+                </aside>
         </div>
         <div class="gridItem2">
             <section class="mainContent">
@@ -91,11 +92,14 @@
                 <form>
                     <div class="flexContainer5">
                         <div class="flexInput">
-                            <input type="text"  name="name" placeholder="Name">
-                            <input type="email" name="email" placeholder="Email address">
+                            <label for="name"><span class="visibilityHidden"> Name</span></label>
+                            <input type="text"  name="name" id="name" placeholder="Name">
+                            <label for="email"><span class="visibilityHidden">Email</span></label>
+                            <input type="email" name="email" id="email" placeholder="Email address">
                         </div>
                         <div class="flexInput2">
-                            <textarea name="comment" cols="10"  placeholder="Comment" draggable="false"></textarea>
+                            <label for="comment"><span class="visibilityHidden">Comment</span></label>
+                            <textarea name="comment" cols="10"  placeholder="Comment" id="comment" draggable="false"></textarea>
                             <input type="submit" value="Post Comment">  
                         </div> 
                     </div>   

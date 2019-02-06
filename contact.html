@@ -22,6 +22,7 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <img src='assets/bars.png' alt=''>
         </div>
         <div class="contactHeader">
                 <h1>Get in Touch</h1>
@@ -32,10 +33,13 @@
         <section>
             <div class="formContainer">
                 <form class="contactForm">
-                    <input type="text"  name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email address">
-                    <textarea name="message" cols="6" placeholder="Message"></textarea>          
-                    <input type="submit" value="Submit">      
+                    <label for="name"><span class="visibilityHidden"> Name</span></label>
+                    <input type="text"  name="name" id="name" placeholder="Name">
+                    <label for="email"><span class="visibilityHidden">Email</span></label>
+                    <input type="email" name="email" id="email" placeholder="Email address">
+                    <label for="comment"><span class="visibilityHidden">Comment</span></label>
+                    <textarea name="comment" cols="10"  placeholder="Comment" id="comment" draggable="false"></textarea>
+                    <input type="submit" value="Post Comment">          
                 </form>
             </div>
             <div class="contactInfo">
