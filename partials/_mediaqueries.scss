@@ -123,6 +123,15 @@
         margin-top: 50px;
         padding-top: 30px;
     }
+
+    .input[type="submit"] {
+        margin-left: 100px;
+        width: 50%;
+    }
+
+    input {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 466px) {
@@ -235,7 +244,12 @@
     }
 
     form {
-            margin-left: -70px;
+            margin-left: -155px;
+    }
+
+    input[type="submit"] {
+        width: 70%;
+        margin-left: 85px;
     }
 }
 
@@ -283,7 +297,7 @@
     }
 }
 
-// Media Queris for the contact page
+// Media Queries for the contact page
 @media (max-width: 1245px) {
     .social {
         padding-left: 0;
@@ -335,6 +349,17 @@
         display: block;
     }
 }
+
+@media (max-width: 665px) {
+    .formContainer {
+        width: 100%;
+    }
+
+    form {
+        margin-left: -15px;
+    }
+}
+
 
 @media (max-width: 655px) {
     textarea {
@@ -398,6 +423,12 @@
 @media (max-width: 480px) {
     .formContainer {
         width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    form {
+        margin-left: -65px;
     }
 }
 
