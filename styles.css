@@ -857,6 +857,10 @@ aside img {
     width: 70%;
     margin-left: 85px; } }
 
+@media (max-width: 615px) {
+  .flexContainer5 {
+    margin-left: -100px; } }
+
 @media (max-width: 500px) {
   .blog img {
     width: 15%; } }
